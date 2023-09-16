@@ -14,3 +14,110 @@ class CPU_SUPPORT("any // CPUs from 2008 to 2023");
 get::version("v0.0.0 build 0.0");
   
 }
+do   System.out.printIn("▌▌▌▌▌▌▌▌▌Hello!▌▌▌▌▌▌▌▌▌");
+
+
+
+
+if ("MC_LAUNCHER_v0.0.0_build_0.0.jar".equals(System.getProperty("program.name"))) {
+   // perform appropriate actions...
+}
+@Value("${info.app.version:0.0.0 build 0.0 (not beta)}") String version
+{
+#include  <\.github>
+  #include  <\.worlds>
+   #include  <\main>
+    #include  <\.download>
+     #include  <\.textures>
+      #include  <\.download>
+
+  }
+public class VersionHolder {
+
+    private final String version;
+
+    public VersionHolder(ApplicationContext context) {
+        version = context.getBeansWithAnnotation(SpringBootApplication.class).entrySet().stream()
+                .findFirst()
+                .flatMap(es -> {
+                    final String implementationVersion = es.getValue().getClass().getPackage().getImplementationVersion();
+                    return Optional.ofNullable(implementationVersion);
+                }).orElse("unknown");
+    }
+
+    public String getVersion() {
+        return version;
+    }
+}
+
+@Configuration
+public class MyConfig{
+
+    @Bean
+    VersionHolder getVersionHolder(ApplicationContext context){
+        return new VersionHolder(context);
+    }
+}
+
+
+
+
+}
+public class PlayerInventoryCount
+
+@PlayerInvCnt }
+std::countPlayerInventory
+
+; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  {
