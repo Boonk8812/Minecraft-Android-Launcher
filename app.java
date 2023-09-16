@@ -1,4 +1,4 @@
-var filePath(580000100010);
+function var filePath(580000100010);
 {
 
 // If Minecraft allocates too much memory, close Minecraft.
