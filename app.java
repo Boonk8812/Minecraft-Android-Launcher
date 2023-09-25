@@ -73,7 +73,7 @@ std::countPlayerInventory
 }
 
 
-  // If player tries to get their player count bigger then 9000x items, then close Minecraft with exit code java.lang.Execption.PlayerInvItemCount.IllegalCountValue
+  // If player tries to get their player count bigger then 9000x items, then close Minecraft with exit code java.lang.Execption.PlayerInvItemCount.IllegalCountValueError
 
 
 rnd(* 9000 + 10.1 = 1.0 , 0.1 = Close ; -0.0 = Nothing);
